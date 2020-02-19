@@ -1,0 +1,86 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+    
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    height: 140px; 
+    padding: 20px 0; 
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 1.2;
+    transition: background 0.5s;
+    -webkit-transistion: background 0.5s;
+    -moz-transition: background 0.5s;
+}
+
+h1 span {
+    font-size: 55px;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding-top: 20px;
+}
+
+#stripe {
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    /* padding: 0 10%; */
+    margin: 0 auto;
+}
+
+#resultDisplay {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 10%;
+    transition: background 0.5s;
+    -webkit-transistion: background 0.5s;
+    -moz-transition: background 0.5s;
+ 
+}
+
+.hardOff {
+    visibility: hidden;
+}
+
+button {
+    border: none;
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: steelblue;
+    outline: none;
+}
+
+button:hover {
+    background-color: steelblue;
+    color: white;
+    transition: all 0.25s;
+    -webkit-transistion: all 0.25s;
+    -moz-transition: all 0.25s;
+}
+
+.selectedButton {
+    background-color: steelblue;
+    color: white;
+}
+
